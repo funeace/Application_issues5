@@ -17,3 +17,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+#search_text:focus {
+  border: 1px solid red;
+  outline: 0;
+}

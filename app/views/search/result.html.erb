@@ -1,0 +1,5 @@
+<% if @search_model == User %>
+  <%= render 'users/userindex',users: @results %>
+<% elsif @search_model == Book %>
+  <%= render 'books/bookindex',books: @results %>
+<% end %>
